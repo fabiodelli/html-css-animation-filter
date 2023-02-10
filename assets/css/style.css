@@ -203,7 +203,7 @@
   /* 13-------------------------------------------------------------------------------------------- */
 
   .ex-13-button:hover .ex-13-top-white{
-    animation: rotation-4-left linear 10s ;
+    animation: rotation-4-left linear 2s ;
 }
 
 @keyframes rotation-4-left {
@@ -217,7 +217,7 @@
   }
 
   .ex-13-button:hover .ex-13-bottom-white{
-    animation: rotation-4-right linear 10s ;
+    animation: rotation-4-right linear 2s ;
 }
 
   @keyframes rotation-4-right {
