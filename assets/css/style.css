@@ -80,6 +80,7 @@
 .ex-8-img:hover{
     filter:saturate(100) hue-rotate(100deg); 
     transition: linear 3s; 
+    border-radius: 50px;
 }
 
 .ex-9-img {
