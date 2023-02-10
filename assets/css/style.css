@@ -87,6 +87,14 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover{
+    filter:sepia(100) hue-rotate(100deg); 
+    transition: linear 3s; 
+    border-radius: 50px;
+    width: 50%;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
