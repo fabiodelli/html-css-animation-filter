@@ -97,6 +97,7 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotation;
     animation: rotation infinite linear 1s ;
 }
 
@@ -110,6 +111,7 @@
 }
 
 .ex-11-icon:hover {
+    animation-name: rotation-2;
     animation: rotation-2 linear reverse 1s ;
 }
 
@@ -149,3 +151,25 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: rotation-3-left linear 1s ;
+}
+
+@keyframes rotation-3-left {
+    0%  {left:10%;}
+    50%  {left:60%;}
+   100%  {left:10%;}
+       
+  }
+
+  .ex-12-button:hover .ex-12-bottom-white{
+    animation: rotation-3-right linear 1s ;
+}
+
+  @keyframes rotation-3-right {
+    0%  {right:20%;}
+    50%  {right:60%;}
+   100%  {right:20%;}
+       
+  }
